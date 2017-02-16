@@ -1,0 +1,959 @@
+
+<html>
+<head>
+<title>台灣大學環境生物物理研究室</title>
+<meta name="GENERATOR" content="Namo WebEditor v6.0">
+<meta name="author" content="mjlai">
+<meta name="namo-theme" content="theme\Arts\Green Tea">
+<style><!--
+body { font-family:新細明體; color:black; background-color:rgb(176,194,120); }
+h1 { font-family:新細明體; font-size:12; color:black; }
+h2 { font-family:新細明體; font-size:12; color:black; }
+p.namo-list { font-family:新細明體; font-size:12; color:black; }
+p.namo-sublist { font-family:新細明體; font-size:10; color:rgb(111,111,0); }
+table.namo-table { border-left-color:silver; border-top-color:silver; border-right-color:#616B43; border-bottom-color:#616B43; }
+table.namo-table td { border-left-color:#616B43; border-top-color:#616B43; border-right-color:silver; border-bottom-color:silver; }
+table.namo-table th { background-color:#BCC5A0; border-left-color:#616B43; border-top-color:#616B43; border-right-color:silver; border-bottom-color:silver; }
+span.namo-link, a:link { color:#FFFF80; text-decoration:underline; }
+span.namo-visited, a:visited { color:#616161; text-decoration:underline; }
+span.namo-active, a:active { color:#80FF00; text-decoration:underline; }
+li.namo-list1 { list-style-image:url('nav/bullet1.gif'); }
+li.namo-list2 { list-style-image:url('nav/bullet2.gif'); }
+--></style>
+<meta http-equiv="content-type" content="text/html; charset=big5">
+
+
+
+<meta name="namo_guide" content="h977 h1822 h1820 h85">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script language="JavaScript">
+<!--
+function namosw_list(parent, visible, width, height, font, size, fgColor, bgColor, indent, hbgColor, hfgColor) {
+  this.additem = namosw_l_additem;
+  this.addlist = namosw_l_addlist;
+  this.make    = namosw_l_make;
+  this.write   = namosw_l_write;
+  this.show    = namosw_l_show;
+  this.update  = namosw_l_update;
+  this.updateparent = namosw_l_updateparent;
+  this.items = new Array();
+  this.id = document.namosw_lists.length;
+  this.parent_id = 0;
+  this.x = 0;
+  this.y = 0;
+  this.visible = visible;
+  this.width    = width;
+  this.height   = height;
+  this.parent   = parent;
+  this.indent = indent;
+  this.fgColor = fgColor;
+  this.hfgColor = hfgColor;
+  this.bgColor  = bgColor;
+  this.hbgColor = hbgColor;
+
+  this.font_start = '';
+  this.font_end   = '';
+
+  this.font_start = '<font color=' + fgColor;
+  if (font != '') this.font_start += ' face=\"' + font + '\"';
+  if (size != '' && size.indexOf('pt', 0) == -1) this.font_start += ' size=' + size;
+  this.font_start += '>';
+
+  this.font_start += '<span';
+  if (size.indexOf('pt', 0) != -1)
+    this.font_start += ' style="font-size:' +size+ ';"';
+  this.font_start += '>';
+
+  this.font_end  = '</span>';
+  this.font_end += '</font>';
+
+  this.made     = false;
+  this.shown    = false;
+  document.namosw_lists[document.namosw_lists.length] = this;
+}
+
+function namosw_l_setclip(layer, left, right, top, bottom) {
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById;
+
+  if (is_ns4) {
+    layer.clip.left   = left; 
+    layer.clip.right  = right;
+    layer.clip.top    = top;  
+    layer.clip.bottom = bottom;
+  } else if (is_ns6) {
+    layer.style.width  = right-left;
+    layer.style.height = bottom-top;
+    layer.style.clip  = "rect(" + top + "," + right + "," + bottom + "," + left + ")";
+  } else {    
+    layer.style.pixelWidth  = right-left;
+    layer.style.pixelHeight = bottom-top;
+    layer.style.clip  = "rect(" + top + "," + right + "," + bottom + "," + left + ")";
+  }
+}
+
+function namosw_l_write() {
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById;
+
+  var layer, clip, str;
+  for(var i = 0; i < this.items.length; i++) { 
+    layer = this.items[i];
+    if (is_ns4) 
+      layer.visibility = "hidden";
+    else 
+      layer.style.visibility = "hidden";
+    str = "";
+
+    str += "<table width="+this.width+" nowrap border='0' cellpadding='0' cellspacing='0'><tr>";
+    if (0 < this.indent) str += "<td width="+this.indent+" nowrap>&nbsp;</td>";
+    if (layer.type == 'list') {
+      str += "<td width=15  valign='middle' nowrap><a";
+      if (is_ns4) str += " href=\"javascript:void(0);\"";
+      else        str += " style=\"cursor:hand;\"";
+      str += " onclick=\"namosw_l_expand("+layer.list.id+");\"><img src=\"collapsed.gif\" name=\"_img"+layer.list.id+"\" border='0'></a></td>";
+    } else {
+      str += "<td width=15 nowrap>&nbsp;</td>";
+    }
+    str += "<td height="+(this.height-3)+" width="+(this.width-15-this.indent)+" valign='middle' align='left'>";
+
+    if (layer.url)       str += "<a href=\"" + layer.url + "\" target=\"" + layer.frame + "\" style=\"text-decoration:none;\">";
+    if (this.font_start) str += this.font_start;
+    str += layer.text;
+    if (this.font_end) str += this.font_end;
+    if (layer.url)       str += "</a>";
+    str += "</td></table>";
+
+    str = str.replace("span", "span id='namoswlistspan" + layer.lid + "'");
+
+    if (is_ns4) {
+      layer.document.writeln(str);
+      layer.document.close();
+    } else if (is_ns6) {
+      layer.innerHTML = str;
+      layer.span = document.getElementById('namoswlistspan'+layer.lid);
+    } else {
+      layer.innerHTML = str;
+      layer.span = document.all['namoswlistspan'+layer.lid];
+    }
+    if (layer.type == 'list' && layer.list.visible)
+      this.items[i].list.write();
+  }
+  this.made = true;
+}
+
+function namosw_l_show() {
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById;
+
+  var layer;
+  for(var i = 0; i < this.items.length; i++) { 
+    layer = this.items[i];
+    namosw_l_setclip(layer, 0, this.width, 0, this.height-1);
+    if (is_ns4) {
+      if (layer.oBgColor) layer.document.bgColor = layer.oBgColor;
+      else layer.document.bgColor = this.bgColor;
+    } else {
+      if (layer.oBgColor) layer.style.backgroundColor = layer.oBgColor;
+      else layer.style.backgroundColor = this.bgColor;
+    }
+    if (layer.type == 'list' && layer.list.visible)
+      layer.list.show();
+  }
+  this.shown = true;
+}
+
+function namosw_l_update(parent_visible, x, y) {
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById;
+
+  var top = y, layer, list;
+  for(var i = 0; i < this.items.length; i++) { 
+    layer = this.items[i];
+    list  = layer.list;
+    if (this.visible && parent_visible) {
+      if (is_ns4) {
+	layer.visibility = "visible";
+	layer.top = top;
+	layer.left = x;
+      } else if (is_ns6) {
+	layer.style.visibility = "visible";
+	layer.style.top   = top;
+	layer.style.left  = x;	
+      } else {
+	layer.style.visibility = "visible";
+	layer.style.pixelTop   = top;
+	layer.style.pixelLeft  = x;	
+//	if (layer.url) layer.style.cursor = "hand";
+      }
+      top += this.height;
+    } else {
+      if (is_ns4)      layer.visibility = "hidden";
+      else if (is_ns6) layer.style.visibility = "hidden";
+      else             layer.style.visibility = "hidden";
+    }
+    if (layer.type == 'list') {
+      if (list.visible) {
+        if (!list.made)  list.write();
+        if (!list.shown) list.show();
+        if (is_ns4) layer.document.images[0].src = "collapsed.gif";
+	else eval('document.images._img'+list.id+'.src = "collapsed.gif"');
+      } else {
+	if (is_ns4) layer.document.images[0].src = "expanded.gif";
+	else eval('document.images._img'+list.id+'.src = "expanded.gif"');
+      }
+      if (list.made)
+        top = list.update(this.visible && parent_visible, x, top);
+    }
+  }
+  return top;
+}
+
+function namosw_l_updateparent(parent_id) {
+  this.parent_id = parent_id;
+  for(var i = 0; i < this.items.length; i++)
+    if (this.items[i].type == 'list')
+      this.items[i].list.updateparent(parent_id);
+}
+
+function namosw_l_expand(i) {
+  document.namosw_lists[i].visible = !document.namosw_lists[i].visible;
+  list = document.namosw_lists[document.namosw_lists[i].parent_id];
+  list.update(true, list.x, list.y);
+}
+
+function namosw_l_make(x, y) {
+  this.updateparent(this.id);
+  this.write();
+  this.show();
+  this.update(true, x, y);
+  this.x = x; 
+  this.y = y;
+}
+
+function namosw_l_additem(text, url, frame) {
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById;
+
+  var layer = null;
+  if (is_ns4 && this.parent)
+    layer = eval('this.parent.document.layers.namoswlistitem'+document.namosw_lists.lid);
+  else if (is_ns6)
+    layer = document.getElementById("namoswlistitem" + document.namosw_lists.lid);
+  else
+    layer = eval('document.all.namoswlistitem'+document.namosw_lists.lid);
+
+  if (layer == null && is_ns4) 
+    layer = this.parent ? new Layer(this.width, this.parent) : new Layer(this.width);
+
+  if (layer == null) return;
+
+  if (url)   layer.url   = url;
+  if (frame) {
+    if (frame.indexOf('parent.') != 0)
+      layer.frame = "_" + frame;
+    else
+      layer.frame = frame.substring(7, frame.length);
+  }
+  layer.type = 'item';
+  layer.text = text;
+  layer.lid  = document.namosw_lists.lid;
+  this.items[this.items.length] = layer;
+  layer.hbgColor = this.hbgColor;
+  layer.oBgColor = this.bgColor;
+  layer.fgColor = this.fgColor;
+  layer.hfgColor = this.hfgColor;
+  if (layer.captureEvents)
+    layer.captureEvents(Event.MOUSEOVER|Event.MOUSEOUT|Event.MOUSEUP);
+  layer.onmouseover = namosw_l_onmouseover;
+  layer.onmouseout  = namosw_l_onmouseout;
+//  layer.onmouseup   = namosw_l_onmouseup;
+  document.namosw_lists.lid++;
+}
+
+function namosw_l_addlist(list, text, url, frame) {
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById;
+
+  var layer = null;
+
+  if (is_ns4 && this.parent)
+    layer = eval('this.parent.document.layers.namoswlistitem'+document.namosw_lists.lid);
+  else if (is_ns6)
+    layer = document.getElementById("namoswlistitem" + document.namosw_lists.lid);
+  else
+    layer = eval('document.all.namoswlistitem'+document.namosw_lists.lid);
+  if (layer == null && is_ns4) 
+      layer = this.parent ? new Layer(this.width, this.parent) : new Layer(this.width);
+
+  if (layer == null) return;
+
+  if (url)   layer.url   = url;
+  if (frame) {
+    if (frame.indexOf('parent.') != 0)
+      layer.frame = "_" + frame;
+    else
+      layer.frame = frame.substring(7, frame.length);
+  }
+  layer.list = list;
+  layer.type = 'list';
+  layer.text = text;
+  layer.lid  = document.namosw_lists.lid;
+  this.items[this.items.length] = layer;
+  list.parent = this;
+  layer.hbgColor = this.hbgColor;
+  layer.oBgColor = this.bgColor;
+  layer.fgColor = this.fgColor;
+  layer.hfgColor = this.hfgColor;
+  if (layer.captureEvents)
+    layer.captureEvents(Event.MOUSEOVER|Event.MOUSEOUT|Event.MOUSEUP);
+  layer.onmouseover = namosw_l_onmouseover;
+  layer.onmouseout  = namosw_l_onmouseout;
+//  layer.onmouseup   = namosw_l_onmouseup;
+  document.namosw_lists.lid++;
+}
+
+function namosw_l_onmouseover()
+{
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById;
+
+  if (is_ns4) {
+    if (this.hbgColor)
+      this.bgColor = this.hbgColor;
+  } else {
+    if (this.hbgColor) this.style.backgroundColor = this.hbgColor;
+    if (this.hfgColor) this.span.style.color = this.hfgColor;
+  }
+  if (this.url) self.status = this.url;
+}
+
+function namosw_l_onmouseout()
+{
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById;
+
+  if (is_ns4) {
+    this.bgColor = this.oBgColor;
+  } else  {
+    this.style.backgroundColor = this.oBgColor;
+    this.span.style.color = this.fgColor;
+  }
+  if (this.url) self.status = '';
+}
+
+function namosw_l_onmouseup()
+{
+  if (this.url) {
+    if (this.frame == 'blank') {
+      window.open(this.url, 'win1');
+    } else {
+      var frame_obj;
+      if ((frame_obj = eval(this.frame)) != null)
+        frame_obj.location = this.url;
+    }
+  }
+}
+
+function namosw_init_float_layers()
+{
+  var name;
+  var layer;
+  var i;
+  var j;
+
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = (navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById);
+
+  j = 0;
+  document._float_layers = new Array(Math.max(1, namosw_init_float_layers.arguments.length/2));
+  for (i = 0; i < namosw_init_float_layers.arguments.length; i += 2) {
+    name  = namosw_init_float_layers.arguments[i];
+    if (name == '')
+      return;
+
+    if (is_ns4) {
+      layer = document.layers[name];
+      layer._fl_pos_left = layer.left;
+      layer._fl_pos_top  = layer.top;
+    } else if (is_ns6) {
+      layer = document.getElementById(name);
+      layer._fl_pos_left = parseInt(layer.style.left);
+      layer._fl_pos_top  = parseInt(layer.style.top);
+    } else {
+      layer = document.all[name];
+      layer._fl_pos_left = layer.style.pixelLeft;
+      layer._fl_pos_top  = layer.style.pixelTop;
+    }
+
+    layer._fl_pos = namosw_init_float_layers.arguments[i+1];
+    if (layer)
+      document._float_layers[j++] = layer;
+  }
+
+  document._fl_interval = setInterval('namosw_process_float_layers()', 200);
+}
+
+function namosw_page_width()
+{
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = (navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById);
+
+  return (is_ns4 || is_ns6) ? innerWidth  : document.body.clientWidth;
+}
+
+function namosw_page_height()
+{
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = (navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById);
+
+  return (is_ns4 || is_ns6) ? innerHeight : document.body.clientHeight;
+}
+
+function namosw_process_float_layers()
+{
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = (navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById);
+
+  if (document._float_layers) {
+      var i;
+      var layer;
+      for (i = 0; i < document._float_layers.length; i++) {
+	  layer = document._float_layers[i];
+	  if (is_ns4) {
+	    if (layer._fl_pos == 1)
+	      layer.left = layer._fl_pos_left + window.pageXOffset;
+	    else if (layer._fl_pos == 2 || layer._fl_pos == 5) 
+	      layer.left = window.pageXOffset;
+	    else if (layer._fl_pos == 3 || layer._fl_pos == 6) 
+	      layer.left = window.pageXOffset + (namosw_page_width() - layer.clip.width)/2;
+	    else
+	      layer.left = window.pageXOffset + namosw_page_width() - layer.clip.width - 16;
+	    if (layer._fl_pos == 1)
+	      layer.top = layer._fl_pos_top + window.pageYOffset;
+	    else if (layer._fl_pos == 2 || layer._fl_pos == 3 || layer._fl_pos == 4)
+	      layer.top = window.pageYOffset;
+	    else
+	      layer.top  = window.pageYOffset + namosw_page_height() - layer.clip.height;
+	  } else if (is_ns6) {
+	    if (layer._fl_pos == 1)
+	      layer.style.left = layer._fl_pos_left + window.pageXOffset;
+	    else if (layer._fl_pos == 2 || layer._fl_pos == 5)
+	      layer.style.left = window.pageXOffset;
+	    else if (layer._fl_pos == 3 || layer._fl_pos == 6)
+	      layer.style.left = window.pageXOffset + (namosw_page_width() - parseInt(layer.style.width))/2;
+	    else
+	      layer.style.left = window.pageXOffset + namosw_page_width()  - parseInt(layer.style.width);
+	    if (layer._fl_pos == 1)
+	      layer.style.top = layer._fl_pos_top + document.body.scrollTop;
+	    else if (layer._fl_pos == 2 || layer._fl_pos == 3 || layer._fl_pos == 4)
+	      layer.style.top = window.pageYOffset;
+	    else
+	      layer.style.top  = window.pageYOffset + namosw_page_height() - parseInt(layer.style.height);
+          }
+          else {
+	    if (layer._fl_pos == 1)
+	      layer.style.pixelLeft = layer._fl_pos_left + document.body.scrollLeft;
+	    else if (layer._fl_pos == 2 || layer._fl_pos == 5)
+	      layer.style.pixelLeft = document.body.scrollLeft;
+	    else if (layer._fl_pos == 3 || layer._fl_pos == 6)
+	      layer.style.pixelLeft = document.body.scrollLeft + (namosw_page_width() - layer.style.pixelWidth)/2;
+	    else
+	      layer.style.pixelLeft = document.body.scrollLeft + namosw_page_width()  - layer.style.pixelWidth;
+	    if (layer._fl_pos == 1)
+	      layer.style.pixelTop = layer._fl_pos_top + document.body.scrollTop;
+	    else if (layer._fl_pos == 2 || layer._fl_pos == 3 || layer._fl_pos == 4)
+	      layer.style.pixelTop = document.body.scrollTop;
+	    else
+	      layer.style.pixelTop  = document.body.scrollTop  + namosw_page_height() - layer.style.pixelHeight;
+         }
+      }
+  }
+}
+
+function namosw_init_list(top_layer)
+{
+  if (parseInt(navigator.appVersion) < 4)
+    return;
+  if (top_layer == '')
+    return;
+
+  document.namosw_lists     = new Array();
+  document.namosw_lists.lid = 0;
+
+  var is_ns4 = navigator.appName.indexOf('Netscape', 0) != -1 && !document.getElementById;
+  var is_ns6 = navigator.appName.indexOf('Netscape', 0) != -1 && document.getElementById;
+
+  var layer;
+  if (is_ns4)      layer = document.layers[top_layer];  
+  else if (is_ns6) layer = document.getElementById(top_layer);
+  else             layer = document.all[top_layer];
+
+
+  var string = "";
+  for (i = 0; i < 9; i++) {
+    string = string + "<div id='namoswlistitem" + (document.namosw_lists.lid+i) + "' " +
+                      "style='position: absolute;'></div>";
+  }
+  layer.innerHTML += string;
+
+  l1 = new namosw_list(layer, true, 180, 30, 'Times New Roman', '12pt', '#990099', '#CCFF99', 0, 'white');
+  l1.additem('學經歷', '#01', 'self');
+  l1.additem('教學課程', '#02', 'self');
+  l1.additem('專長', '#03', 'self');
+  l1.additem('研究方向', '#04', 'self');
+  l1.additem('SCI期刊論文', '#05', 'self');
+  l1.additem('中文期刊論文', '#06', 'self');
+  l1.additem('學術會議論文', '#07', 'self');
+  l1.additem('聯絡方式', '#08', 'self');
+
+  l1.make(0, 14);
+}
+
+function namosw_ns_resize()
+{
+  window.history.go(0);
+}
+
+// -->
+</script>
+<script language="JavaScript">
+<!--
+function na_change_img_src(name, nsdoc, rpath, preload)
+{ 
+  var img = eval((navigator.appName.indexOf('Netscape', 0) != -1) ? nsdoc+'.'+name : 'document.all.'+name);
+  if (name == '')
+    return;
+  if (img) {
+    img.altsrc = img.src;
+    img.src    = rpath;
+  } 
+}
+
+function na_restore_img_src(name, nsdoc)
+{
+  var img = eval((navigator.appName.indexOf('Netscape', 0) != -1) ? nsdoc+'.'+name : 'document.all.'+name);
+  if (name == '')
+    return;
+  if (img && img.altsrc) {
+    img.src    = img.altsrc;
+    img.altsrc = null;
+  } 
+}
+
+function na_preload_img()
+{ 
+  var img_list = na_preload_img.arguments;
+  if (document.preloadlist == null) 
+    document.preloadlist = new Array();
+  var top = document.preloadlist.length;
+  for (var i=0; i < img_list.length-1; i++) {
+    document.preloadlist[top+i] = new Image;
+    document.preloadlist[top+i].src = img_list[i+1];
+  } 
+}
+
+// -->
+</script>
+
+</head><body text="black" link="blue" vlink="purple" alink="red" OnLoad=" namosw_init_list('layer2'); namosw_init_float_layers('layer1', 7);na_preload_img(false, 'photo/tower.JPG');" bgcolor="white" OnResize="namosw_ns_resize();">
+
+<table cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td width="969" colspan="2">
+            <p align="center" style="text-indent:155;"><!--NAMO_NAVBAR_START B H C       -1 1 2 4 3 5 -->
+<b><font face="Arial Black" color="#CCCC00"><span style="font-size:14pt;"><!--NAMO_NAVBAR_END--></span></font></b><a name="topp"></a><b><font size="4" face="細明體" color="#0066FF">&nbsp;</font></b><img src="img255.gif" border="0" width="965" height="173"></p>
+            <p align="left"><font size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>[</b></font><b><a href="index2.html"><font size="4" color="maroon">首頁</font></a></b><font size="4"><b>] &nbsp;[研究室主持人] &nbsp;[</b></font><b><a href="about.html"  onmouseover="" onmouseout=""><font size="4" color="maroon">研究室簡介</font></a><font size="4">]&nbsp;&nbsp;[</font><a href="news.html"  onmouseover="" onmouseout=""><font size="4" color="maroon">研究室成員</font></a><font size="4">]&nbsp;&nbsp;[</font><a href="course.html"  onmouseover="" onmouseout=""><font size="4" color="maroon">課程資訊</font></a><font size="4">]&nbsp;&nbsp;&nbsp;[</font><a href="qna.html"  onmouseover="" onmouseout=""><font size="4" color="maroon">活動照片</font></a></b><font size="4"><b>] &nbsp;</b></font><b><font size="4">[</font><a href="web.htm"><font size="4" color="#660000">相關連結</font></a></b><font size="4"><b>] &nbsp;</b></font><b><font size="4">[</font><a href="contact.html"><font size="4" color="maroon">聯絡我們</font></a></b><font size="4"><b>]</b></font></p>
+        </td>
+    </tr>
+    <tr>
+        <td width="125" valign="top">
+
+            <p><!--NAMO_NAVBAR_START T V   h     -1 6 2 4 3 5 -->
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <div id="layer2" style="width:180px; height:200px; position:absolute; left:32px; top:252px; z-index:1;">
+                <p>&nbsp;</p>
+            </div>
+            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p><br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+<a name="anchor_menu0">&nbsp;</a><br>
+            <!--NAMO_NAVBAR_END-->            </p>
+            <p><a name="anchor_menu0">&nbsp;</a><br></p>
+            <p>&nbsp;</p>
+        </td>
+        <td width="950" align="center">
+
+            <table width="100%" cols="2" rows="10" align="center" cellspacing="0" class="namo-table" bordercolordark="#0000A0" bordercolorlight="silver">
+                <tr>
+                    <td width="100%">
+                        <p style="margin-top:3; margin-bottom:3;"><font color="blue"><b>&nbsp;</b></font></p>
+                        <p style="margin-top:3; margin-bottom:3;"><b><font face="標楷體" color="blue"><span style="font-size:20pt;">謝正義</span></font></b></p>
+                        <p align="left" style="text-indent:113;"><a href="#" OnMouseOut="na_restore_img_src('image1', 'document')" OnMouseOver="na_change_img_src('image1', 'document', 'photo/tower.JPG', true)"><img border="0" src="photo/teacher.JPG" width="384" height="288" / name="image1"></a><a name="01"></a></p>
+                        <p class="namo-table"><span class="wordbody"><img src="rail.gif" width="859" height="29" border="0" alt="rail.gif"></span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="100%">
+                        <p class="wordbody" style="line-height: 150%">&nbsp;</p>
+                        <p class="wordbody" style="line-height: 150%"><b><span style="font-size:14pt;"><font face="微軟正黑體" color="red">學經歷</font></span></b></p>
+                        <p><b><span style="font-size:14pt;">學歷</span></b><BR></p>
+                        <p>美國杜克大學 （Duke University）環境科學博士 May, 1998</p>
+                        <p><BR><b><span style="font-size:14pt;">經歷</span></b><BR></p>
+                        <p>現職：台灣大學 生物環境系統工程學系 副教授 
+2009 / 8<BR>經歷：台灣大學 生物環境系統工程學系 助理教授 2002 / 8 -2009 / 7<BR>國立台灣科技大學 通識學科 助理教授 
+1999 / 8 -2002 / 7<BR>工業技術研究院 能源與資源研究所 研究員 1998 / 10 -1999 / 7<BR>美國杜克大學 環境學院 
+博士後研究員 1998 / 5 -1998 /10 </p>
+                        <p class="namo-table"><span class="wordbody"><img src="rail.gif" width="859" height="33" border="0" alt="rail.gif"></span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="100%">
+                        <p style="margin-top:3; margin-bottom:3;">&nbsp;</p>
+                        <p style="margin-top:3; margin-bottom:3;">&nbsp;</p>
+                        <p style="margin-top:3; margin-bottom:3;"><span style="margin-top:3; margin-bottom:3;"><font size="4" face="微軟正黑體" color="red"><b>教學課程</b></font></span></p>
+                        <p style="margin-top:3; margin-bottom:3;">&nbsp;</p>
+                        <p style="margin-top:3; margin-bottom:3;"><b>必修 &nbsp;(含專業選修)</b></p>
+                        <p style="margin-top:3; margin-bottom:3;">&nbsp;</p>
+                        <p style="margin-top:3; margin-bottom:3;"><span class="wordbody">熱力學 (I) &nbsp;<b>Thermodynamics&nbsp;(I) </b>(兩學分，90學年度(含)以前入學適用)</span></p>
+                        <p style="margin-top:3; margin-bottom:3;"><span class="wordbody">熱力學 (II) &nbsp;<b>Thermodynamics&nbsp;(II) </b>(三學分，94學年度(含)以前入學適用)</span></p>
+                        <p style="margin-top:3; margin-bottom:3;"><span class="wordbody">環境流體力學 &nbsp;</span><b>Environmental Fluid Mechanics &nbsp;</b><span class="wordbody">(合開，94學年度(含)以前入學適用)</span></p>
+                        <p style="margin-top:3; margin-bottom:3;"><span class="wordbody">環境工程二 &nbsp;</span><b><span class="wordbody">Environment&nbsp;Engineering (II) </span></b><span class="wordbody">(合開，94學年度(含)以前入學適用)</span></p>
+                        <p style="margin-top:3; margin-bottom:3;"><span class="wordbody">熱傳學 &nbsp;</span><b><span class="wordbody">Heat Transfer &nbsp;</span></b><span class="wordbody">(合開，94學年度(含)以前入學適用)</span></p>
+                        <p style="margin-top:3; margin-bottom:3;">土壤力學實驗 &nbsp;<b>Soil Mechanics Laboratory &nbsp;</b>(<span class="wordbody">合開) &nbsp;</span><b><a href="http://tinyurl.com/cjowhu"><font color="blue"><span style="line-height:1; margin-top:6; margin-bottom:6;">http://tinyurl.com/cjowhu</span></font></a></b></p>
+                        <p style="line-height:1; margin-top:6; margin-bottom:6;">              &nbsp;</p>
+                        <p style="margin-top:3; margin-bottom:3;"><span class="wordbody">服務學習一 &nbsp;</span><b><span class="wordbody">Student Service Education (1) &nbsp;</span></b><span class="wordbody">(大一服務課)&nbsp;</span><b><font color="blue"><span style="line-height:1; margin-top:6; margin-bottom:6;">&nbsp;</span></font><a href="http://tinyurl.com/ykn9dy9">http://tinyurl.com/ykn9dy9</a></b></p>
+                        <p style="margin-top:3; margin-bottom:3;"><span class="wordbody">專題討論 &nbsp;</span><b><span class="wordbody">Seminar &nbsp;</span></b><span class="wordbody">(合開，碩士班) &nbsp;</span><b><a href="http://tinyurl.com/ylror26">http://tinyurl.com/ylror26</a></b></p>
+                        <p style="margin-top:3; margin-bottom:3;">&nbsp;</p>
+                        <p style="margin-top:3; margin-bottom:3;">專題研究 &nbsp;<b>Special Topics (A)(I)</b> &nbsp;(大學部專題<span class="wordbody">，個別指導) &nbsp;</span><B><a href="http://tinyurl.com/yjte3zo">http://tinyurl.com/yjte3zo</a></B></p>
+                        <p style="margin-top:3; margin-bottom:3;"><span class="wordbody">書報研讀 &nbsp;<b>Selected Paper Reading (I)</b> &nbsp;(碩士一年級，個別指導) &nbsp;</span><B><a href="http://tinyurl.com/ykakpr5">http://tinyurl.com/ykakpr5</a></B></p>
+                        <p style="margin-top:3; margin-bottom:3;">&nbsp;</p>
+                        <p style="margin-top:3; margin-bottom:3;"><b>選修</b></p>
+                        <p style="margin-top:3; margin-bottom:3;">&nbsp;</p>
+                        <p style="margin-top:3; margin-bottom:3;"><span class="wordbody">程式語言在生物資訊的應用 &nbsp;</span><b><span class="wordbody">Program Language in Bioinformatics</span></b></p>
+                        <p style="margin-top:3; margin-bottom:3;"><span class="wordbody">環境生物物理學 &nbsp;</span><b><span class="wordbody">Environmental Biophysics &nbsp;</span><a href="http://tinyurl.com/yzyu7g3">http://tinyurl.com/yzyu7g3</a></b></p>
+                        <p style="margin-top:3; margin-bottom:3;"><span class="wordbody">微氣候學 &nbsp;</span><b><span class="wordbody">Micrometeorology &nbsp;</span><a href="http://tinyurl.com/ygnyeba">http://tinyurl.com/ygnyeba</a></b></p>
+                        <p style="margin-top:3; margin-bottom:3;"><span class="wordbody">環境生物物理量測 &nbsp;</span><b><span class="wordbody">Environmental Monitoring and&nbsp;Instrumentation of Biophysics</span></b></p>
+                        <p style="margin-top:3; margin-bottom:3;"><a name="03"></a></p>
+                        <p class="namo-table"><span class="wordbody"><img src="rail.gif" width="859" height="33" border="0" alt="rail.gif"></span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="100%">
+                        <p style="line-height: 150%">&nbsp;</p>
+                        <p style="line-height: 150%"><span style="font-size:14pt; line-height:150%;"><font face="微軟正黑體" color="red"><b>研究專長</b></font></span></p>
+                        <p style="line-height: 150%"><span class="wordbody">環境生物物理學<br />
+環境流體力學<br />
+污染物及質能傳輸<br />
+邊界層氣候學 <br />
+水文學</span><a name="04"></a></p>
+                        <p class="namo-table"><span class="wordbody"><img src="rail.gif" width="859" height="33" border="0" alt="rail.gif"></span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="100%">
+
+                        <p>&nbsp;</p>
+                        <p style="line-height: 150%"><span style="font-size:14pt;"><font face="微軟正黑體" color="red"><b>研究方向 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></font></span></p>
+                        <p style="line-height: 150%"><span class="wordbody">二氧化碳吸收量研究<br />
+    農業、都市及建築物微氣候研究<br />
+    氣候變遷與植物生產力研究<br />
+    大氣---陸地交互作用研究</span><a name="05"></a></p>
+                        <p style="line-height: 150%">&nbsp;</p>
+                        <p style="line-height: 150%">Hydrology, Micrometeorology, Global Climate Change, and Environmental Biophysics with emphases on 1) turbulent transport of momentum, heat, water vapor, CO<span style="line-height:150%;"><sub>2</sub></span>, and other passive and chemical scalars through biosphere-atmosphere interfaces, 2) greenhouse gases emissions from natural and agricultural ecosystems, and 3) ecosystem's photosynthetic response to future climate change.</p>
+                        <p style="line-height: 150%">&nbsp;</p>
+                    </td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </tr>
+                <tr>
+                    <td width="100%">
+
+                        <p class="namo-table"><span class="wordbody"><img src="rail.gif" width="859" height="33" border="0" alt="rail.gif"></span></p>
+                    </td>
+</tr>
+                <tr>
+                    <td width="100%">
+
+                        <p style="text-indent:48;">&nbsp;</p>
+                        <p><span style="font-size:14pt;"><b><font face="微軟正黑體" color="red">SCI期刊論文</font></b></span></p>
+                        <p class=MsoNormal style="text-align:justify; margin-left:2; text-justify:inter-ideograph"><font face="Times New Roman"><span style="font-size:12pt;">1.
+Katul, G. G., S. M. Goltz, <b style='mso-bidi-font-weight:normal'>C. I. Hsieh</b>,
+Y. Cheng, F. Mowery, and J. T. Sigmon, Estimation of surface heat and momentum
+fluxes using the flux-variance method above uniform and non-uniform terrain, <i
+style='mso-bidi-font-style:normal'>Boundary-Layer Meteorology</i>, 74, 237-260,
+1995.</span></font><font face="Times New Roman"><span style="font-size:12pt;"></span></font></p>
+                        <p class=MsoNormal style="text-align:justify; margin-left:2; text-justify:inter-ideograph;
+tab-stops:100.8pt 108.0pt"><font face="Times New Roman"><span style="font-size:12pt;">2. Katul, G. G., J. D. Albertson,<b
+style='mso-bidi-font-weight:normal'> C. I. Hsieh</b>, P. S. Conklin, J. T.
+Sigmon, M. B. Parlange, and K. K. Knoerr, The “inactive” eddy-motion and the
+large-scale turbulent pressure fluctuations in the dynamic sublayer, <i
+style='mso-bidi-font-style:normal'>Journal of the Atmospheric Science</i>, 53,
+2512-2524, 1996.<o:p></span></font><font face="Times New Roman"><span style="font-size:12pt;"></span></font></p>
+                        <p class=MsoNormal style="text-align:justify; margin-left:2; text-justify:inter-ideograph;
+tab-stops:100.8pt 108.0pt"><font face="Times New Roman"><span style="font-size:12pt;">3. Katul, G. G., <b style='mso-bidi-font-weight:
+normal'>C. I. Hsieh</b>, R. Oren, D. Ellsworth, and N. Phillips, Latent and
+sensible heat flux predictions from a uniform pine forest using surface renewal
+and flux variance methods, <i style='mso-bidi-font-style:normal'>Boundary-Layer
+Meteorology</i>, 80, 249-282, 1996.</span></font><font face="Times New Roman"><span style="font-size:12pt;"></span></font></p>
+                        <p class=MsoNormal style="text-align:justify; margin-left:2; text-justify:inter-ideograph"><font face="Times New Roman"><span style="font-size:12pt;">4.<b
+style='mso-bidi-font-weight:normal'> Hsieh, C. I.</b>, G. G. Katul, J.
+Schieldge, J. T. Sigmon, and K. R. Knoerr, Estimation of momentum and heat
+fluxes using dissipation and flux-variance methods in the unstable surface
+layer, <i style='mso-bidi-font-style:normal'>Water Resources Research</i>, 32,
+2453-2462, 1996.</span></font><font face="Times New Roman"><span style="font-size:12pt;"></span></font></p>
+                        <p class=MsoNormal style="text-align:justify; margin-left:2; text-justify:inter-ideograph"><font face="Times New Roman"><span style="font-size:12pt;">5.<b
+style='mso-bidi-font-weight:normal'> Hsieh, C. I.</b>, G. G. Katul, J.
+Schieldge, J. T. Sigmon, and K. R. Knoerr, The Lagrangian stochastic model for
+fetch and latent heat flux estimation above uniform and non-uniform terrain, <i
+style='mso-bidi-font-style:normal'>Water Resources Research</i>, 33, 427-438,
+1997.</span></font><font face="Times New Roman"><span style="font-size:12pt;"></span></font></p>
+                        <p class=MsoNormal style="text-align:justify; margin-left:2; text-justify:inter-ideograph"><font face="Times New Roman"><span style="font-size:12pt;">6.<b
+style='mso-bidi-font-weight:normal'> Hsieh, C. I.</b> and G. G. Katul,
+Dissipation methods,<st1:City w:st="on"><st1:place w:st="on">Taylor</st1:place></st1:City>’s
+hypothesis and stability correction functions in the atmospheric surface layer,
+<i style='mso-bidi-font-style:normal'>Journal of Geophysical Research</i>, 102,
+16391-16405, 1997.<o:p></o:p></span></font><font face="Times New Roman"><span style="font-size:12pt;"></span></font></p>
+                        <p class=MsoNormal style="text-align:justify; margin-left:2; text-justify:inter-ideograph;
+tab-stops:100.8pt 108.0pt"><font face="Times New Roman"><span style="font-size:12pt;">7. Katul, G. G. and <b style='mso-bidi-font-weight:
+normal'>C. I. Hsieh</b>, Reply to the comment by Bink and Meesters, <i
+style='mso-bidi-font-style:normal'>Boundary-Layer Meteorology</i>, 84, 503-509,
+1997.<o:p></o:p></span></font><font face="Times New Roman"><span style="font-size:12pt;"></span></font></p>
+                        <p class=MsoNormal style="text-align:justify; margin-left:2; text-justify:inter-ideograph"><font face="Times New Roman"><span style="font-size:12pt;">8.
+Katul, G. G., R. Oren, D. Ellsworth, <b style='mso-bidi-font-weight:normal'>C.
+I. Hsieh</b>, N. Philips, K. Lewin, A Lagrangian dispersion model for
+predicting CO<sub>2</sub> sources, sinks, and fluxes in a uniform Loblolly pine
+(<i style='mso-bidi-font-style:normal'>Pinus Taeda L</i>.) Stand, <i
+style='mso-bidi-font-style:normal'>Journal of Geophysical Research</i>, 102,
+9309-9321, 1997.<o:p></o:p></span></font><font face="Times New Roman"><span style="font-size:12pt;"></span></font></p>
+                        <p class=MsoNormal style="text-align:justify; margin-left:2; text-justify:inter-ideograph;
+tab-stops:100.8pt 108.0pt"><font face="Times New Roman"><span style="font-size:12pt;">9. Katul, G. G., <b style='mso-bidi-font-weight:
+normal'>C. I. Hsieh</b>, and J. T. Sigmon, Energy-inertial scale interactions
+for velocity and temperature in the unstable atmospheric surface layer, <i
+style='mso-bidi-font-style:normal'>Boundary-Layer Meteorology</i>, 82, 49-80,
+1997.<o:p></o:p></span></font><font face="Times New Roman"><span style="font-size:12pt;"></span></font></p>
+                        <p class=MsoNormal style="text-align:justify; margin-left:2; text-justify:inter-ideograph"><font face="Times New Roman"><span style="font-size:12pt;">10.
+Katul, G. G., <b style='mso-bidi-font-weight:normal'>C. I. Hsieh</b>, G. Kuhn,
+and D. Ellsworth, Turbulent eddy motion at the forest-atmosphere interface, <i
+style='mso-bidi-font-style:normal'>Journal of Geophysical Research</i>, 102,
+13409-13421, 1997.</span></font></p>
+                        <p class=MsoNormal style="text-align:justify; margin-left:2; text-justify:inter-ideograph;
+tab-stops:100.8pt 108.0pt"><font face="Times New Roman"><span style="font-size:12pt;">11. Katul, G. G., G. Kuhn, J. Schieldge, and <b
+style='mso-bidi-font-weight:normal'>C. I. Hsieh</b>, The ejection-sweep
+character of scalar fluxes in the unstable surface layer, <i style='mso-bidi-font-style:
+normal'>Boundary-Layer Meteorology</i>, 83, 1-26, 1997.<o:p></o:p></span></font><font face="Times New Roman"><span style="font-size:12pt;"></span></font></p>
+                        <p class=MsoNormal style="text-align:justify; margin-left:2; text-justify:inter-ideograph;
+tab-stops:100.8pt 108.0pt"><font face="Times New Roman"><span style="font-size:12pt;">12. Katul, G. G., J. Schieldge, <b
+style='mso-bidi-font-weight:normal'>C. I. Hsieh</b>, and B. Vidakovic, Skin
+temperature perturbations induced by surface layer turbulence above a grass
+surface, <i style='mso-bidi-font-style:normal'>Water Resources Research</i>,
+34, 1265-1274, 1998.<o:p></o:p></span></font><font face="Times New Roman"><span style="font-size:12pt;"></span></font></p>
+                        <p class=MsoNormal style="text-align:justify; margin-left:2; text-justify:inter-ideograph;
+tab-stops:100.8pt 108.0pt"><font face="Times New Roman"><span style="font-size:12pt;">13. Katul, G. G., C. D. Geron, <b
+style='mso-bidi-font-weight:normal'>C. I. Hsieh</b>, B. Vidakovic, and A. B.
+Guenther, Actice turbulence and scalar transport near the forest-atmosphere
+interface, <i style='mso-bidi-font-style:normal'>Journal of Applied Meteorology</i>,
+37, 1533-1546, 1998.<o:p></o:p></span></font><font face="Times New Roman"><span style="font-size:12pt;"></span></font></p>
+                        <p class=MsoNormal style="text-align:justify; margin-left:2; text-justify:inter-ideograph;
+tab-stops:100.8pt 108.0pt"><font face="Times New Roman"><span style="font-size:12pt;">14. Katul, G. G. and <b style='mso-bidi-font-weight:
+normal'>C. I. Hsieh</b>, A note on the flux-variance similarity relationships
+for haet and water vapor in the unstable atmospheric surface layer, accepted, <i
+style='mso-bidi-font-style:normal'>Boundary-Layer Meteorology</i>, 90, 327-338,
+1999.<o:p></o:p></span></font><font face="Times New Roman"><span style="font-size:12pt;"></span></font></p>
+                        <p class=MsoNormal style="text-align:justify; margin-left:2; text-justify:inter-ideograph;
+tab-stops:100.8pt 108.0pt"><font face="Times New Roman"><span style="font-size:12pt;">15. Katul G. G., C. I. Hsieh, D. Bowling, K.
+Clark, N. Shurpali, A. Turnipseed, J. Albertson, K. Tu, D. Hollinger, B. Evans,
+B. Orff, D. Anderson, D. Ellsworth, C. Vogel, and R. Oren, Spatial variability
+of turbulent fluxes in the roughness sublayer of an even-aged Pine forest,
+Boundary-Layer Meteorology, 93, 1-28, 1999.<o:p></o:p></span></font><font face="Times New Roman"><span style="font-size:12pt;"></span></font></p>
+                        <p class=MsoNormal style="text-align:justify; margin-left:2; text-justify:inter-ideograph;
+tab-stops:100.8pt 108.0pt"><font face="Times New Roman"><span style="font-size:12pt;">16. Hsieh, C. I., G. G. Katul, and T. W. Chi, An
+approximate analytical model for footprint estimation of scalar fluxes in
+thermally stratified atmospheric flows, Advances in Water Resources, 23,
+765-772, 2000.</span></font><font face="Times New Roman"><span style="font-size:12pt;"></span></font></p>
+                        <p class=MsoNormal style="text-align:justify; margin-left:2; text-justify:inter-ideograph;
+tab-stops:100.8pt 108.0pt"><font face="Times New Roman"><span style="font-size:12pt;">17. Katul, G. G., C. T. Lai, J. D. Albertson, B.
+Vidakovic, K. V. R. Schafer, C. I. Hsieh, R. Oren, Quantifying the complexity
+in mapping energy inputs and hydrologic state variables into land-surface
+fluxes, Geophysical Research Letter, 28, 3305-3307, 2001.<o:p></o:p></span></font><font face="Times New Roman"><span style="font-size:12pt;"></span></font></p>
+                        <p class=MsoNormal style="text-align:justify; margin-left:2; text-justify:inter-ideograph;
+tab-stops:100.8pt 108.0pt"><font face="Times New Roman"><span style="font-size:12pt;">18.
+<b style='mso-bidi-font-weight:normal'>Hsieh, C. I.</b>, M. Siqueira, G. G.
+Katul, and C. R. Chu, Predicting scalar source-link and flux distributions
+within a forest canopy using a 2-D Langrangian Stochastic dispersion mode, <i
+style='mso-bidi-font-style:normal'>Boundary-Layer Meteorology</i>, 109,
+113-138, 2003.</span></font><b><font face="Times New Roman"><span style="font-size:12pt;">                                                                <o:p></o:p></span></font></b><font face="Times New Roman"><span style="font-size:12pt;"></span></font></p>
+                        <p class=MsoNormal style="margin-left:2;"><font face="Times New Roman"><span style="font-size:12pt;">19. <sup>*</sup>Lee, C.I., W.F. Yang, and <b
+style='mso-bidi-font-weight:normal'>C.I. Hsieh</b>, Removal of Copper(</span><span style="font-family:標楷體; font-size:12pt;">Ⅱ</span><span style="font-size:12pt;">) by
+Manganese-Coated Sand in a Liquid Fluidized Bed Reactor, Journal of Hazardous
+Materials, 114, 45-52, 2004.<o:p></o:p></span></font></p>
+                        <p class=MsoNormal style="margin-left:2;"><font face="Times New Roman"><span style="font-size:12pt;">20. <sup>*</sup>Lee, C.I., W.F. Yang, and <b
+style='mso-bidi-font-weight:normal'>C.I. Hsieh</b>, Removal of Cu(II) from
+Aqueous Solution in a Fluidized Bed Reactor, Chemosphere, 57, 1173-1180, 2004.<o:p></o:p></span></font><font face="Times New Roman"><span style="font-size:12pt;"></span></font></p>
+                        <p class=MsoNormal style="margin-left:2;"><font face="Times New Roman"><span style="font-size:12pt;">21. *<b style='mso-bidi-font-weight:normal'>Hsieh,
+C.I</b>., G. Kiely, A. Birkby, and G. Katul, Photosynthetic Responses of a
+Humid Grassland Ecosystem to Future Climate Perturbations, Advances in Water
+Resources, 28, 910-916, 2005.<o:p></o:p></span></font><font face="Times New Roman"><span style="font-size:12pt;"></span></font></p>
+                        <p class=MsoNormal style="margin-left:2;"><font face="Times New Roman"><span style="font-size:12pt;">22. <b style='mso-bidi-font-weight:normal'>Hsieh,
+C. I</b>., P. *Leahy, G. Kiely, and C. Li, The effect of future climate
+perturbations on N2O emissions from a fertilized humid grassland, Nutrient
+Cycling in Agroecosystems, 73, 15-23, 2005.<o:p></o:p></span></font><font face="Times New Roman"><span style="font-size:12pt;"></span></font></p>
+                        <p class=MsoNormal style="margin-left:2;"><font face="Times New Roman"><span style="font-size:12pt;">23. *Oren, R., <b
+style='mso-bidi-font-weight:normal'>C.I. Hsieh</b>, P. Stoy, J. Albertson, H.
+McCarthy, P. Harrell, G. G. Katul, Estimating the uncertainty in annual net
+ecosystem carbon exchange: spatial variation in turbulent fluxes and sampling
+errors in eddy-covariance measurements, Global Change Biology, 12, 883-896,
+2006.<o:p></o:p></span></font></p>
+                        <p class=MsoNormal style="margin-left:2;"><font face="Times New Roman"><span style="font-size:12pt;">24. *<b style='mso-bidi-font-weight:normal'>Hsieh,
+C.I.</b>, M.C. Lai, Y.J. Hsia, T.J. Chang, Estimation of sensible heat, water
+vapor, and CO2 fluxes using the flux-variance method, International Journal of
+Biometeorology, 52, 521-533, 2008.</span></font><b style='mso-bidi-font-weight:normal'><font face="Times New Roman"><span style="font-size:12pt;"><o:p></o:p></span></font></b><font face="Times New Roman"><span style="font-size:12pt;"></span></font></p>
+                        <p class=MsoNormal style="margin-left:2;"><font face="Times New Roman"><span style="font-size:12pt;">25. <sup>*</sup>Chu, C. R., <b style='mso-bidi-font-weight:
+normal'>C. I. Hsieh</b>, S. Y. Wu, and N. G. Phillips, Transient Response of
+Sap Flow to Wind Speed, Journal of Experimental Botany, 60, 249-255, 2009.<o:p></o:p></span></font><font face="Times New Roman"><span style="font-size:12pt;"></span></font></p>
+                        <p class=MsoNormal style="margin-left:2;"><font face="Times New Roman"><span style="font-size:12pt;">26. *<b style='mso-bidi-font-weight:normal'>Hsieh,
+C.I.</b> and G. Katul, The Lagrangian Stochastic Model for Estimating Footprint
+and Water Vapor Fluxes over Inhomogeneous Surfaces, International Journal of
+Biometeorology, 53: 87-100, 2009.<o:p></o:p></span></font><font face="Times New Roman"><span style="font-size:12pt;"></span></font></p>
+                        <p class=MsoNormal style="margin-left:2;"><font face="Times New Roman"><span style="font-size:12pt;">27. *<b style='mso-bidi-font-weight:normal'>Hsieh
+C.I.</b>, C.W. Huang, and G. Kiely, Long-term estimation of soil heat flux by
+single layer soil temperature, International Journal of Biometeorology</span></font><span style="font-size:12pt;"><font face="Times New Roman">, 53,
+11</font></span><span lang=EN-US style='mso-bidi-font-size:12.0pt;
+mso-fareast-font-family:標楷體'><font face="Times New Roman">3-123, 2009.</font></span></p>
+                        <p class=MsoNormal style="margin-left:2;"><span lang=EN-US style='mso-bidi-font-size:12.0pt;
+mso-fareast-font-family:標楷體'><font face="Times New Roman">28. Kao H.M., *Chang T.J., Hsieh Y.F., Wang C.H., Hsieh C.I., Comparison of airflow and particulate matter transport in multi-room buildings for different natural ventilation patterns, Energy and Buildings, 41, 966-974, 2009.</font></span></p>
+                        <p><a name="06"></a></p>
+                        <p><font face="Times New Roman"><span style="font-size:12pt;"></span></font></p>
+                        <p><font face="Times New Roman"><span style="font-size:12pt;"></span></font></p>
+                        <p><font face="Times New Roman"><span style="font-family:'Times New Roman'; font-size:12pt;"> </span></font>&nbsp;</p>
+                        <p class="namo-table"><span class="wordbody"><img src="rail.gif" width="859" height="33" border="0" alt="rail.gif"></span></p>
+                        <p><span style="font-size:14pt;"><b><font face="微軟正黑體" color="red">中文期刊論文</font></b></span></p>
+                        <p class=MsoNormal style="text-align:justify; margin-left:2; text-justify:inter-ideograph"><font size="3" face="新細明體">1. 謝正義*、蔡宗翰，非均勻地型之紊流擴散模擬，農業工程學報，53，56-68，2007。</font><a name="07"></a><font size="3" face="新細明體"><BR><BR>2. 
+謝正義*、陳明志、許志揆、賴進松，非均勻地型風場之數值模擬研究，農業工程學報，55，81-91，2008。</font><font size="3" face="新細明體"><BR></font></p>
+                        <p class=MsoNormal style="text-align:justify; margin-left:2; text-justify:inter-ideograph">&nbsp;</p>
+                        <p class="namo-table"><span class="wordbody"><img src="rail.gif" width="859" height="33" border="0" alt="rail.gif"></span></p>
+                        <p><span style="font-size:14pt;"><b><font face="微軟正黑體" color="red">學術會議論文 (有刊登全文者)</font></b></span></p>
+                        <p>1. 謝正義*、陳明志、許志揆、賴進松，非均勻地形紊流邊界層之流場模擬，水利工程研討會，頁729-734，2007。<BR><BR>2. 
+謝正義、賴玫君、朱佳仁*，稻田可感熱、水汽、二氧化碳通量之量測，農業工程研討會，頁319-326，2007。<BR><BR>3. 
+邱銘誠、鄭詩憫、蕭軒梅、謝正義*，蒸發散量之推估與量測，農業工程研討會，頁1345-1352，2008。<a name="08"></a><font size="3" face="新細明體"><BR></font></p>
+                        <p>&nbsp;</p>
+                        <p class="namo-table"><span class="wordbody"><img src="rail.gif" width="859" height="33" border="0" alt="rail.gif"></span></p>
+                        <p><span style="font-size:14pt;"><b><font face="微軟正黑體" color="red">榮譽</font></b></span></p>
+                        <p>1. 2009年輕學者學術研究獎--台灣大學 生物資源暨農學院</p>
+                        <p>2. 2009亞太青年科學家競賽-農業與自然資源組-第三名。<BR> &nbsp;&nbsp;&nbsp;&nbsp;(2009 Young Scientist Award, Runner-up of Agricultural and Natural Resources Category, by Asian Institute of Technology &nbsp;&nbsp;&nbsp;&nbsp;and ProSPER.NET-Scopus)</p>
+                        <p>3. 2007優秀青年農業工程獎--台灣農業工程學會</p>
+                        <p>4. 國科會96年度(第45屆)補助科學與技術人員赴國外短期研究經費--Institute for Atmospheric and Climate Science, &nbsp;&nbsp;&nbsp;&nbsp;Swiss Federal Institute of Technology</p>
+                        <p>5. 90至98學年度 &nbsp;每年皆獲國科會計劃主持人獎助</p>
+                        <p>6. 89學年度國科會甲等研究獎</p>
+                        <p>&nbsp;</p>
+                    </td>
+                </tr>
+            </table>
+
+
+
+
+
+
+            <p class="namo-table" align="left"><span class="wordbody"><img src="rail.gif" width="859" height="33" border="0" alt="rail.gif"></span>&nbsp;<span class="wordbody">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+            <p class="wordbody" style="line-height: 150%" align="left"><b><span style="font-size:14pt;"><font face="微軟正黑體" color="red">聯絡方式</font></span></b><span class="wordbody">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+            <p class="namo-table" align="left"><span class="wordbody">&nbsp;辦公室：生物資源暨農學院三樓 &nbsp;(304A)<br />
+          <br />
+ &nbsp;聯絡電話：(02) 33663473<br />
+<br />
+</span><span class="wordbody"> &nbsp;電子郵件： <a href="mailto:hsieh@ntu.edu.tw"><u><font color="blue">hsieh@ntu.edu.tw</font></u></a></span></p>
+            <p class="namo-table"><font size="1"><!--NAMO_NAVBAR_START T h C h     -1 7 2 4 3 5 -->
+</font>
+</p>
+            <div id="layer1" style="width:200px; height:200px; position:absolute; left:522px; top:2952px; z-index:1;">
+                <p class="namo-table"><a href="howto.html#topp"><img src="images/top.gif" alt="回到頂端" width="86" height="25" border="0" /></a></p>
+            </div>
+<font size="1"><div align="center">
+</div>
+<!--NAMO_NAVBAR_END--></font>
+
+            <hr width="750"><!--NAMO_SHARED_CONTENTS_START name="NamoCopy" time="9bf9a10,1c9ac51"-->
+            <p><font size="2">著作權所有 (c) 2009 Environmental Biophysics LAB。保留所有權利。 &nbsp;&nbsp;E-mail:&nbsp;</font><a href="mailto:r94622006@ntu.edu.tw"><font size="2" color="black">r96622009@ntu.edu.tw</font></a></p>
+<!--NAMO_SHARED_CONTENTS_END--></td>
+    </tr>
+</table>
+<p>&nbsp;
+
+</p>
+</body>
+</html>
