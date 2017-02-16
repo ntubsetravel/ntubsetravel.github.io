@@ -1,0 +1,50 @@
+.word {
+	font-family: "新細明體";
+	font-size: 16pt;
+}
+.title1 {
+	font-family: "標楷體";
+	font-size: 16pt;
+	color: #FF0000;
+}
+.wordbody02 {
+	font-family: "細明體";
+	font-size: 12pt;
+	color: #FF0000;
+}
+
+
+.wordbody {
+	font-family: "新細明體";
+	color: #000000;
+	font-weight: normal;
+}
+a:link {
+	font-family: "細明體";
+	font-size: 12pt;
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	font-family: "細明體";
+	font-size: 12pt;
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	font-family: "細明體";
+	font-size: 12pt;
+	color: #FF0000;
+	text-decoration: none;
+}
+a:active {
+	font-family: "細明體";
+	font-size: 12pt;
+	color: #FFFF00;
+	text-decoration: none;
+}
+.boxblack {
+	border: 1px solid #000000;
+	float: none;
+}
